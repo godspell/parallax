@@ -1,0 +1,11 @@
+/*=====================================================*/
+/* Header */
+/*=====================================================*/
+header {
+	height: 600px;
+	background-image: url('../img/mosque-resized.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}

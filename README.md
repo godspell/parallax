@@ -1,6 +1,8 @@
-parallax
-========
+# Responsive Parallax Templates #
 
-fixed background parallax
--------------------------
-Background does not move.
+## Libraries Used ##
+* Bootstrap
+* Jquery
+
+## fixed background parallax ##
+* Background does not move.
