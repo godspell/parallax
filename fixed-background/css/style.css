@@ -12,10 +12,23 @@
 
 /* Add Images */
 div.parallax-1 {
-	background-image: url('../img/mosque/mosque-resized.jpg');
+/*	background-image: url('../img/mosque/mosque-edited.jpg');*/
+	background: 
+				url(../img/pattern.png) repeat,
+				url(../img/mosque/mosque-edited.jpg) no-repeat fixed center;
 	z-index: 1;
 }
 div.parallax-2 {
-	background-image: url('../img/mosque/mosque2-resized.jpg');
+	/*background-image: url('../img/mosque/mosque2-edited.jpg');*/
+	background: 
+				url(../img/pattern.png) repeat,
+				url(../img/mosque/mosque2-edited.jpg) no-repeat fixed center;
 	z-index: 2;
+}
+div.parallax-3 {
+	/*background-image: url('../img/mosque/mosque3-edited.jpg');*/
+	background: 
+				url(../img/pattern.png) repeat,
+				url(../img/mosque/mosque3-edited.jpg) no-repeat fixed center;
+	z-index: 3;
 }
