@@ -1,11 +1,21 @@
 /*=====================================================*/
-/* Header */
+/* Parallax Styles */
 /*=====================================================*/
-header {
-	height: 600px;
-	background-image: url('../img/mosque-resized.jpg');
-	background-size: 100%;
+
+.parallax-div {
+	height: 700px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	
+	background-position: center;
+	background-size: cover;
+}
+
+/* Add Images */
+div.parallax-1 {
+	background-image: url('../img/mosque/mosque-resized.jpg');
+	z-index: 1;
+}
+div.parallax-2 {
+	background-image: url('../img/mosque/mosque2-resized.jpg');
+	z-index: 2;
 }
