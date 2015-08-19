@@ -5,30 +5,54 @@
 .parallax-div {
 	height: 700px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: center;
-	background-size: cover;
 }
 
 /* Add Images */
 div.parallax-1 {
-/*	background-image: url('../img/mosque/mosque-edited.jpg');*/
-	background: 
-				url(../img/pattern.png) repeat,
-				url(../img/mosque/mosque-edited.jpg) no-repeat fixed center;
+	background-image: url('../img/mosque/mosque-edited.jpg');
 	z-index: 1;
 }
 div.parallax-2 {
-	/*background-image: url('../img/mosque/mosque2-edited.jpg');*/
-	background: 
-				url(../img/pattern.png) repeat,
-				url(../img/mosque/mosque2-edited.jpg) no-repeat fixed center;
+	background-image: url('../img/mosque/mosque2-edited.jpg');
 	z-index: 2;
 }
 div.parallax-3 {
-	/*background-image: url('../img/mosque/mosque3-edited.jpg');*/
-	background: 
-				url(../img/pattern.png) repeat,
-				url(../img/mosque/mosque3-edited.jpg) no-repeat fixed center;
+	background-image: url('../img/mosque/mosque3-edited.jpg');
 	z-index: 3;
 }
+
+
+/*=====================================================*/
+/* Screen Styles */
+/*=====================================================*/
+
+/* Computers */
+@media (min-width: 768px) {
+	.parallax-div {
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+
+	/* Add Images */
+	div.parallax-1 {
+		background-image: none;
+		background: 
+					url(../img/pattern.png) repeat,
+					url(../img/mosque/mosque-edited.jpg) no-repeat fixed center;
+	}
+	div.parallax-2 {
+		background-image: none;
+		background: 
+					url(../img/pattern.png) repeat,
+					url(../img/mosque/mosque2-edited.jpg) no-repeat fixed center;
+	}
+	div.parallax-3 {
+		background-image: none;
+		background: 
+					url(../img/pattern.png) repeat,
+					url(../img/mosque/mosque3-edited.jpg) no-repeat fixed center;
+	}
+}
+
