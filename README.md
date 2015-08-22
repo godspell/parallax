@@ -1,8 +1,10 @@
 # Responsive Parallax Templates #
 
-## fixed background parallax ##
-* Background does not move.
+## Fixed Background Parallax ##
+	* Background does not move.
+	* Parallax disabled on mobile.
+	* Vertical lines added over images to cover low quality (optional).
 
-	## Libraries Used ##
+	## libraries Used ##
 	* Bootstrap
 	* Jquery

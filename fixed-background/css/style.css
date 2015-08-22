@@ -3,10 +3,11 @@
 /*=====================================================*/
 
 .parallax-div {
-	height: 700px;
+	height: 500px;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center;
+	color: #fff;
 }
 
 /* Add Images */
@@ -55,4 +56,37 @@ div.parallax-3 {
 					url(../img/mosque/mosque3-edited.jpg) no-repeat fixed center;
 	}
 }
+
+
+/*=====================================================*/
+/* Vertical Centering */
+/*=====================================================*/
+
+.box-wrap {
+	height: inherit;
+	text-align: center;
+}
+.box-wrap:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.box {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
