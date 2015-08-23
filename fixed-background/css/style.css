@@ -78,6 +78,20 @@ div.parallax-3 {
 }
 
 
+/*=====================================================*/
+/* Landing Elements */
+/*=====================================================*/
+
+.landing-elements div {
+	font-size: 25px;
+	opacity: 0;
+	transform: translateX(10px);
+	transition: all 0.5s ease-in-out;
+}
+.landing-elements div.slide-in {
+	opacity: 1;
+	transform: translateX(0px);
+}
 
 
 
